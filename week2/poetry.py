@@ -1,3 +1,6 @@
+#ASSINGMENT: CHANGE THIS SCRIPT TO TAKE A LETTER FROM USER INPUT AND SEARCH THE
+#POETRY USING THAT LETTER.
+
 #poetry.py is a simple program designed to demonstrate string manipulation
 import re #importing regular expressions
 
