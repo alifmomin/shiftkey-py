@@ -1,0 +1,109 @@
+====SHIFTKEY PY WEEK 1====
+
+GOOGLE PYTHON TUTORIAL PT 1
+
+Welcome to ShifyKey-py tutorial! This is an extra-curricular  tutorial on python provided by ShiftKey Labs
+and Dalhousie's Master of Electronic Commerce program. The tutorial is designed for "advanced non-developers"
+--that is highly motivated (possibly post-graduate) students who want to learn to code from scratch. It's 
+a highly experimental tutorial, so bear with us as we try to do somethinG new.
+
+The main objective of this tutorial is to go from knowing no code to knowing how to develop a web app and
+implement analytics on the app. Eventually we hope to develop the application on Django. However, before
+we can do that, we need to know how to develop in the Python programming language. To learn Python, we will
+go through the Google Python class.
+
+The Google Python class is a great way to get acquainted with the Python language. It is not designed for
+first time developers, but given that we are so highly motivated, we are going to use it as our first 
+resource. You can access the class material using this link: https://developers.google.com/edu/python/?csw=1
+
+Why might you want to learn Python? The Python programming language is an intuitive *scripted* and 
+*interpreted* language used in a very wide variety of cases. Basically if you aren't a professional software
+engineer, Python is great to learn because a) it is easy to read b) there are a wide number of uses for
+this tool c) you get a lot of help with debugging. Python is also the "go to" language of Data Scientists,
+and after all, we all want to be Data Scientists so that we can make a lot of money: 
+http://www.kdnuggets.com/2014/04/elusive-data-scientists-driving-high-salaries.html 
+
+If you are using Windows, the very first thing you will need to do is install and configure Python. You can
+read about how to do that by clicking on "Python Set Up" in the Google tutorial. Note for the purposes of
+this tutorial, we will be using Python 2.7.
+
+FIRST PYTHON
+
+Once you have Python configured, you should take a look at Google's "Introduction" section. In this section,
+they introduce key concepts in Python. It's interesting that they recommend that you take a MOOC along side
+the tutorial... we will be running our own "MOOC" instead. One thing that's worth noting if you click on their
+selected readings. There is a book called "Learn Python the Hard Way". This is a REALLY good resource; I strongly
+recommend that reading as well.
+
+So, OK. A good way to start with python is using the shell. If you use Windows, the way to access this is though
+a program called IDLE. Run that program and you will see the command line. As the tutorial suggests, try playing
+around with it. Try to see what you can do.
+
+First steps: variables and functions. In programming, you can declare a variable to assign a value. Let's start by
+assigning a number. A typical example of how this is done in Python is: 
+
+>>> secret = 42
+
+Note that you can name variables anything you would like. In this case, I chose the name "secret", reminiscent  of 
+Douglas Adams' "the secret to life, the universe and everything." By doing this, I can more easily remember the
+name of the thing I want to change if my code discovers a different answer to this question. Declaring variables
+allows me to store values, which can be retrieved, used and altered throughout the process. For instance, if we
+wanted to add value to secret, we might try the following:
+
+>>> secret += 2
+
+...and then tell the python interpreter to return the value:
+
+>>> secret
+44
+
+Note how we changed the value of secret. In the second command, we asked the python intepreter to return the value
+of the variable that we have been storing. A great deal of what programming concerns storing data and manipulating 
+values ... after all, computers are just big math machines!
+
+Numbers aren't the only values we can store. We can try to store words or phrases... called strings. Let's give it a
+try. Run something like:
+
+>>> secret = "The answer to life, the universe and everything."
+
+>>> secret
+'The answer to life, the universe and everything.'
+
+This will assign a "str" type of value to secret. Strings are not the same as int values ... they cannot have arithmetic  
+performed on them. However, strings are cool because they concern words and characters, and come with a lot of functions 
+of their own. One of Python's primary uses is for string manipulation. Try something like:
+
+>>> secret = secret + 2
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    secret = secret + 2
+TypeError: cannot concatenate 'str' and 'int' objects
+
+Python doesn't like that. However, given that we are programming in Python and not something like Javascript, we are given
+a hint as to why it didn't like that. The interpreter tells us that we cannot treat strings like integers. Let's try running
+a string function instead:
+
+>>> len(secret)
+47
+
+Interesting! The len() function is a feature included with Python for telling the length of a phrase. In reality, this is a
+very basic function that simply takes the string and returns the number of characters in the string. Still, this demonstrates
+some of the unique features of strings in Python, and I am sure you can already see how this might be useful for developing 
+applications such as password validators.
+
+FUNCTIONS
+
+Say we wanted to create our own len() function, could we do that in Python? The answer is: of course! **
+
+[we covered functions in the tutorial. I will incldue this subsection when I get a chance later this week.]
+
+INSTALLING AND CONFIGURING GIT
+
+Finally, you should consider installing and configuring git so that you can easily access the course materials.
+Git is a version control software that allows people to share and control code easily. Github is site where cloud
+storage meets social networking-- it's where developers can brag about their cred and stuff. You can learn about 
+how to install and configure git and github at https://help.github.com/categories/bootcamp/ Note that the repo
+we will be using for these tutorials is at https://github.com/cdconrad/shiftkey-py
+
+That's all for this week! We spend a good chunk of the week helping people get caught up with the basics of programming.
+If you need any help with this part, or if you come in late, never be afraid to reach out to me at colin.conrad@dal.ca.
