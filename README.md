@@ -9,4 +9,4 @@ This is very much a work in progress. We will be updating the tutorial each week
 
 ABOUT YOUR INSTRUCTOR: COLIN CONRAD
 
-Colin is an Interdisciplinary PhD student at Dalhousie University, studying through the Rowe School of Business, Faculty of Comptuer Science, and Department of Psychology/Neuroscience. Colin is in the business of building comptuer systems that automate advanced human behaviour (eg. Psychologists, Higher Educators, Poets). His thesis work concerns applying predictive analytics to electrical brain data generated during e-learning sessions. Feel free to send him a message any time concerning this work, or the tutorial.
+Colin is an Interdisciplinary PhD student at Dalhousie University, studying through the Rowe School of Business, Faculty of Computer Science, and Department of Psychology/Neuroscience. Colin is in the business of building computer systems that automate advanced human behaviour (eg. Psychologists, Higher Educators, Poets). His thesis work concerns applying predictive analytics to electrical brain data generated during e-learning sessions. Feel free to send him a message any time concerning this work, or the tutorial.
