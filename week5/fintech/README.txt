@@ -3,8 +3,8 @@
 This is the first articulation of the Django app that we are trying to
 build. The approach I took is to start by completing the Django
 tutorial https://www.djangoproject.com/start/ and this application
-contains the content from part 1 and 2 from that tutorial. I hope to
-complete part 3 and 4 by the end of this week, and then migrate what
+contains the content up to part 4 of the Django tutorial. I hope to
+complete the rest of the tutorial by the end of next week, and then migrate what
 I've learned from Django to the Fintech application.
 
 We chose Django in the first place because it a) uses python (giving
